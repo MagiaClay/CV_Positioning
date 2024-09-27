@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99745e34-85d6-4361-b879-31e798905646" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/mmdetection/demo/demo_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmpose/demo/demo.mkv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmpose/demo/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/ISSUE_TEMPLATE/1-bug-report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/ISSUE_TEMPLATE/2-feature_request.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/ISSUE_TEMPLATE/3-documentation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/md-link-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/check_index_rst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/doc_link_checker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/gen_reg_summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/linux/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/linux/convert_onnxruntime.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/linux/install_onnxruntime.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/linux/install_python.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/linux/test_full_pipeline.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/prepare_reg_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/test_java_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/test_onnx2ncnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/windows/install_onnxruntime.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/windows/install_opencv.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/scripts/windows/test_full_pipeline.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-ascend.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-coreml.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-ncnn.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-ort.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-pplnn.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-rknn.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-snpe.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/backend-torchscript.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/java_api.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/linux-riscv64-gcc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/prebuild.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/regression-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/rust_api.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/configs/mmpose/pose-detection_simcc_onnxruntime_dynamic.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/configs/mmpose/pose-detection_simcc_onnxruntime_dynamic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/docs/en/07-developer-guide/test_rewritten_models.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/docs/en/07-developer-guide/test_rewritten_models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/docs/zh_cn/07-developer-guide/test_rewritten_models.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/docs/zh_cn/07-developer-guide/test_rewritten_models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/apis/onnx/partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/apis/onnx/partition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/apis/torch_jit/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/apis/torch_jit/trace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/ascend/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/ascend/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/base/base_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/base/base_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/coreml/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/coreml/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/ncnn/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/ncnn/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/onnxruntime/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/onnxruntime/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/openvino/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/openvino/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/pplnn/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/pplnn/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/rknn/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/rknn/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/snpe/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/snpe/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/tensorrt/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/tensorrt/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/torchscript/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/torchscript/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/tvm/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/tvm/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/vacc/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/backend/vacc/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/base/backend_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/base/backend_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/deploy/object_detection_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/deploy/object_detection_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/base_dense_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/base_dense_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/rtmdet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/rtmdet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/yolox_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet/models/dense_heads/yolox_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet3d/deploy/mono_detection_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet3d/deploy/mono_detection_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet3d/deploy/voxel_detection_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmdet3d/deploy/voxel_detection_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/deploy/text_detection_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/deploy/text_detection_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/fpn_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/fpn_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/heads.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/heads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/single_stage_text_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_detection/single_stage_text_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_recognition/crnn_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmocr/models/text_recognition/crnn_decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmrotate/deploy/rotated_detection_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/codebase/mmrotate/deploy/rotated_detection_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/core/optimizers/function_marker.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/core/optimizers/function_marker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/core/optimizers/optimize.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/core/optimizers/optimize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/mmcv/ops/nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/mmcv/ops/nms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/mmcv/ops/nms_rotated.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/mmcv/ops/nms_rotated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/mmdeploy/utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/mmdeploy/utils/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_apis/test_onnx2openvino.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_apis/test_onnx2openvino.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmaction/test_video_recognition_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmaction/test_video_recognition_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmagic/test_super_resolution_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmagic/test_super_resolution_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmdet/test_mmdet_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmdet/test_mmdet_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmdet3d/test_mmdet3d_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmdet3d/test_mmdet3d_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_mmocr_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_mmocr_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_text_detection_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_text_detection_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_text_recognition_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmocr/test_text_recognition_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmpretrain/test_classification_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmpretrain/test_classification_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmrotate/test_mmrotate_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmrotate/test_mmrotate_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmseg/test_segmentation_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_codebase/test_mmseg/test_segmentation_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_mmcv/test_mmcv_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_mmcv/test_mmcv_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_ops/test_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_ops/test_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tests/test_pytorch/test_pytorch_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tests/test_pytorch/test_pytorch_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tools/deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tools/deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdeploy/tools/regression_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdeploy/tools/regression_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_test_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_test_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_valid_flops.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/.dev_scripts/benchmark_valid_flops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/ISSUE_TEMPLATE/error-report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/ISSUE_TEMPLATE/general_questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/ISSUE_TEMPLATE/reimplementation_questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/centripetalnet/centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/centripetalnet/centripetalnet_hourglass104_16xb6-crop511-210e-mstest_coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/cornernet/cornernet_hourglass104_8xb6-210e-mstest_coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/cornernet/cornernet_hourglass104_8xb6-210e-mstest_coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/crowddet/crowddet-rcnn_r50_fpn_8xb2-30e_crowdhuman.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/crowddet/crowddet-rcnn_r50_fpn_8xb2-30e_crowdhuman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/glip/metafile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/glip/metafile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/grounding_dino/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/grounding_dino/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/mask2former/metafile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/mask2former/metafile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/mm_grounding_dino/usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/mm_grounding_dino/usage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/mm_grounding_dino/usage_zh-CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/mm_grounding_dino/usage_zh-CN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/openimages/metafile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/openimages/metafile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/configs/point_rend/metafile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/configs/point_rend/metafile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/demo/create_result_gif.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/demo/create_result_gif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/demo/demo_multi_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/demo/demo_multi_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/demo/image_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/demo/image_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/demo/inference_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/demo/inference_demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/demo/large_image_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/demo/large_image_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/migration/config_migration.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/migration/config_migration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/inference.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/inference.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/new_model.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/new_model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/test_results_submission.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/test_results_submission.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/train.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/train.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/useful_tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/useful_tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/visualization.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/en/user_guides/visualization.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/inference.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/inference.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/new_model.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/new_model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/test_results_submission.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/test_results_submission.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/train.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/train.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/useful_tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/useful_tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/visualization.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/docs/zh_cn/user_guides/visualization.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/dsdl.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/dsdl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/isaid.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/isaid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/openimages.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/openimages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/samplers/track_img_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/samplers/track_img_sampler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/transforms/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/transforms/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/datasets/transforms/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/datasets/transforms/wrappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/functional/class_names.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/functional/class_names.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/functional/mean_ap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/functional/mean_ap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/coco_caption_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/coco_caption_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/coco_panoptic_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/coco_panoptic_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/crowdhuman_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/crowdhuman_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/refseg_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/refseg_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/semseg_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/evaluation/metrics/semseg_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/data_preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/reid_data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/reid_data_preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/track_data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/data_preprocessors/track_data_preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/anchor_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/anchor_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/atss_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/atss_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/atss_vlfusion_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/atss_vlfusion_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/base_dense_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/base_dense_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/boxinst_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/boxinst_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/cascade_rpn_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/cascade_rpn_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centernet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centernet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centernet_update_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centernet_update_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centripetal_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/centripetal_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/condinst_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/condinst_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/conditional_detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/conditional_detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/corner_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/corner_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/dab_detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/dab_detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ddod_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ddod_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ddq_detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ddq_detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/deformable_detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/deformable_detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/dino_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/dino_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fcos_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fcos_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fovea_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fovea_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fsaf_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/fsaf_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ga_rpn_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/ga_rpn_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/gfl_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/gfl_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/grounding_dino_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/grounding_dino_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/guided_anchor_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/guided_anchor_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/lad_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/lad_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/mask2former_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/mask2former_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/maskformer_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/maskformer_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/paa_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/paa_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/reppoints_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/reppoints_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rpn_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rpn_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rtmdet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rtmdet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rtmdet_ins_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/rtmdet_ins_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/sabl_retina_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/sabl_retina_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/tood_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/tood_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/vfnet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/vfnet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolact_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolact_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolof_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolof_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolox_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/dense_heads/yolox_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/base_detr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/base_detr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/conditional_detr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/conditional_detr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/d2_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/d2_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/dab_detr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/dab_detr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/deformable_detr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/deformable_detr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/detr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/detr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/dino.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/dino.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/mask2former.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/mask2former.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/point_rend.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/point_rend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/semi_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/semi_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/single_stage.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/single_stage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/single_stage_instance_seg.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/single_stage_instance_seg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/two_stage.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/detectors/two_stage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/language_models/bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/language_models/bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/detr_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/detr_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/dino_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/dino_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/layers/transformer/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/losses/dice_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/losses/dice_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/channel_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/channel_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn_carafe.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn_carafe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn_dropblock.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/fpn_dropblock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/pafpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/pafpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/necks/ssh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/bbox_heads/bbox_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/bbox_heads/bbox_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/bbox_heads/sabl_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/bbox_heads/sabl_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/htc_roi_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/htc_roi_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/sparse_roi_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/roi_heads/sparse_roi_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/seg_heads/panoptic_fusion_heads/maskformer_fusion_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/seg_heads/panoptic_fusion_heads/maskformer_fusion_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/assigners/hungarian_assigner.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/assigners/hungarian_assigner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/assigners/match_cost.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/assigners/match_cost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/delta_xywh_bbox_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/delta_xywh_bbox_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/legacy_delta_xywh_bbox_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/legacy_delta_xywh_bbox_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/tblr_bbox_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/task_modules/coders/tblr_bbox_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/test_time_augs/merge_augs.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/test_time_augs/merge_augs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/trackers/base_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/trackers/base_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/tracking_heads/mask2former_track_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/tracking_heads/mask2former_track_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/models/vis/mask2former_vis.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/models/vis/mask2former_vis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/structures/bbox/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/structures/bbox/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/structures/reid_data_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/structures/reid_data_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/mmdet/utils/memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/mmdet/utils/memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/align_detr/align_detr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/align_detr/align_detr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/align_detr/mixed_hungarian_assigner.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/align_detr/mixed_hungarian_assigner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/configs/align_detr-4scale_r50_8xb2-12e_coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/AlignDETR/configs/align_detr-4scale_r50_8xb2-12e_coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/co_dino_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/co_dino_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/codetr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/codetr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/CO-DETR/codetr/transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic/detic/centernet_rpn_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic/detic/centernet_rpn_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic_new/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic_new/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/centernet_rpn_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/centernet_rpn_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/detic.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/detic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/detic_bbox_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/Detic_new/detic/detic_bbox_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/DiffusionDet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/DiffusionDet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/EfficientDet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/EfficientDet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/EfficientDet/efficientdet/tensorflow/yxyx_bbox_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/EfficientDet/efficientdet/tensorflow/yxyx_bbox_coder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/HDINO/h_dino_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/HDINO/h_dino_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/LabelStudio/backend_template/mmdetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/LabelStudio/backend_template/mmdetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/RF100-Benchmark/scripts/log_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/RF100-Benchmark/scripts/log_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/SparseInst/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/SparseInst/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/sparseinst.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/SparseInst/sparseinst/sparseinst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/ViTDet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/ViTDet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/ViTDet/vitdet/simple_fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/ViTDet/vitdet/simple_fpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/ViTDet/vitdet/vit.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/ViTDet/vitdet/vit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/XDecoder/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/XDecoder/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/XDecoder/xdecoder/focalnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/XDecoder/xdecoder/focalnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/example_project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/example_project/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/projects/gradio_demo/launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/projects/gradio_demo/launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tests/data/dsdl_det/defs/obejct-detection-def.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tests/data/dsdl_det/defs/obejct-detection-def.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tests/test_datasets/test_crowdhuman.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tests/test_datasets/test_crowdhuman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tests/test_models/test_necks/test_necks.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tests/test_models/test_necks/test_necks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tests/test_utils/test_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tests/test_utils/test_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tools/analysis_tools/fuse_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tools/analysis_tools/fuse_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tools/dataset_converters/crowdhuman2coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tools/dataset_converters/crowdhuman2coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmdetection/tools/deployment/test_torchserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmdetection/tools/deployment/test_torchserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/ISSUE_TEMPLATE/1-bug-report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/ISSUE_TEMPLATE/2-feature_request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/ISSUE_TEMPLATE/3-documentation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/workflows/lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/workflows/merge_stage_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/workflows/pr_stage_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/.github/workflows/scripts/get_mmcv_var.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/300w.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/300w.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/300wlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/300wlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/deepfashion2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/deepfashion2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/rhd2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/configs/_base_/datasets/rhd2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/configs/hand_3d_keypoint/internet/interhand3d/internet_interhand3d.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/configs/hand_3d_keypoint/internet/interhand3d/internet_interhand3d.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/demo/bottomup_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/demo/bottomup_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/demo/hand3d_internet_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/demo/hand3d_internet_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/demo/image_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/demo/image_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/demo/topdown_demo_with_mmdet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/demo/topdown_demo_with_mmdet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/docs/en/advanced_guides/codecs.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/docs/en/advanced_guides/codecs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/docs/en/guide_to_framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/docs/en/guide_to_framework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/docs/zh_cn/advanced_guides/codecs.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/docs/zh_cn/advanced_guides/codecs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/docs/zh_cn/guide_to_framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/docs/zh_cn/guide_to_framework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/apis/inferencers/base_mmpose_inferencer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/apis/inferencers/base_mmpose_inferencer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/associative_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/associative_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/decoupled_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/decoupled_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/megvii_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/megvii_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/msra_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/msra_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/regression_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/regression_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/spr.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/spr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/codecs/udp_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/codecs/udp_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/body/aic_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/body/aic_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/aflw_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/aflw_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/face_300w_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/face_300w_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/face_300wlp_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/face/face_300wlp_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/freihand_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/freihand_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/interhand2d_double_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/interhand2d_double_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/onehand10k_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/onehand10k_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/panoptic_hand2d_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/panoptic_hand2d_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/rhd2d_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand/rhd2d_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand3d/interhand_3d_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/hand3d/interhand_3d_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/wholebody3d/h3wb_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/wholebody3d/h3wb_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/wholebody3d/ubody3d_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/datasets/wholebody3d/ubody3d_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/transforms/bottomup_transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/transforms/bottomup_transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/datasets/transforms/mix_img_transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/datasets/transforms/mix_img_transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/engine/hooks/badcase_hook.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/engine/hooks/badcase_hook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/coco_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/coco_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/hand_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/hand_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/keypoint_2d_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/keypoint_2d_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/keypoint_3d_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/keypoint_3d_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/simple_keypoint_3d_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/evaluation/metrics/simple_keypoint_3d_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/data_preprocessors/batch_augmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/data_preprocessors/batch_augmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/data_preprocessors/data_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/data_preprocessors/data_preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/distillers/dwpose_distiller.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/distillers/dwpose_distiller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/base_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/base_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/heatmap_heads/ae_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/heatmap_heads/ae_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/heatmap_heads/internet_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/heatmap_heads/internet_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/hybrid_heads/dekr_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/hybrid_heads/dekr_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/motion_regression_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/motion_regression_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/regression_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/regression_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/rle_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/rle_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/temporal_regression_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/temporal_regression_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/trajectory_regression_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/regression_heads/trajectory_regression_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/transformer_heads/edpose_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/transformer_heads/edpose_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/heads/transformer_heads/transformers/detr_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/heads/transformer_heads/transformers/detr_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/losses/heatmap_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/losses/heatmap_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/necks/channel_mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/necks/channel_mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/necks/fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/necks/fpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/pose_estimators/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/pose_estimators/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/pose_estimators/pose_lifter.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/pose_estimators/pose_lifter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/utils/reparam_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/utils/reparam_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/models/utils/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/models/utils/transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/structures/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/structures/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/mmpose/utils/typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/mmpose/utils/typing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/example_project/models/example_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/example_project/models/example_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/mmpose4aigc/openpose_visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/mmpose4aigc/openpose_visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/fewshot_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/fewshot_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/test_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/test_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/transformer_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/datasets/mp100/transformer_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/pipelines/top_down_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/datasets/pipelines/top_down_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer_moe.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer_moe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/backbones/swin_transformer_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/detectors/pam.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/detectors/pam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/keypoint_heads/head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/keypoint_heads/head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/utils/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/pose_anything/models/utils/transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/rtmpose/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/rtmpose/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/rtmpose/examples/onnxruntime/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/rtmpose/examples/onnxruntime/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/rtmpose3d/rtmpose3d/rtmw3d_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/rtmpose3d/rtmpose3d/rtmw3d_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/skps/custom_codecs/skps_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/skps/custom_codecs/skps_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/skps/models/skps_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/skps/models/skps_head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/uniformer/models/uniformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/uniformer/models/uniformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/projects/yolox_pose/models/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/projects/yolox_pose/models/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/tests/test_models/test_backbones/test_mspn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/tests/test_models/test_backbones/test_mspn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/tests/test_models/test_backbones/test_rsn.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/tests/test_models/test_backbones/test_rsn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/tools/dataset_converters/labelstudio2coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/tools/dataset_converters/labelstudio2coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/tools/misc/keypoints2coco_without_mmdet.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/tools/misc/keypoints2coco_without_mmdet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmpose/tools/torchserve/test_torchserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/mmpose/tools/torchserve/test_torchserver.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kE9zWPcSB90PjeB3yvDvx9Fqet" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.MMCVInstall.executor": "Run",
+    "Python.MMDetTest (1).executor": "Run",
+    "Python.MMDetTest.executor": "Run",
+    "Python.ONNX_test (1).executor": "Run",
+    "Python.ONNX_test.executor": "Run",
+    "Python.camera_test.executor": "Run",
+    "Python.connectComponents.executor": "Run",
+    "Python.demo_api.executor": "Run",
+    "Python.label2COCO (1).executor": "Run",
+    "Python.label2COCO.executor": "Run",
+    "Python.label2Coco.executor": "Run",
+    "Python.label2Coco_2.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_no_pin.executor": "Run",
+    "Python.main_ver2.0.executor": "Run",
+    "Python.pic2video.executor": "Run",
+    "Python.reflection.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.transformPic.executor": "Run",
+    "Python.可视化Labelme关键点检测标注 (1).executor": "Run",
+    "Python.可视化训练数据_mmpose.executor": "Run",
+    "Python.可视化训练日志.executor": "Run",
+    "Python.数据集结果分析.executor": "Run",
+    "Python.汇总标注信息.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/AI_fileCollected/code/Measurement/Measurement/data",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\data" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\checkpoints" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\data\configs" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\mmpose\checkpoint" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\mmpose\work_dirs\rtmpose_m_measurement" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\data" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\demo\pictures" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\checkpoints" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\test" />
+      <recent name="D:\AI_fileCollected\code\Measurement\Measurement\mmpose\work_dirs\rtmpose_m_measurement" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行 Python 文件" flag="true" />
+      <visibility group="运行 conda 命令" flag="true" />
+      <visibility group="运行 pip 命令" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="Python.main_ver2.0">
+    <configuration name="connectComponents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/connectComponents.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\AI_fileCollected\code\Measurement\Measurement\test\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_no_pin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\AI_fileCollected\code\Measurement\Measurement\test\main_no_pin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_ver2.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_ver2.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reflection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/reflection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Measurement" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_ver2.0" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.connectComponents" />
+        <item itemvalue="Python.reflection" />
+        <item itemvalue="Python.main_no_pin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="99745e34-85d6-4361-b879-31e798905646" name="更改" comment="" />
+      <created>1722838131805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722838131805</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
